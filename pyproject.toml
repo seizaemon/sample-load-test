@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "load-test-for-fit"
+version = "0.1.0"
+description = ""
+authors = ["seizaemon <oden@venus.dti.ne.jp>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+locust = "^2.32.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
